@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteTargetsManager">
+    <targets>
+      <target name="WSL - Ubuntu-20.04" type="wsl" uuid="56029dbe-3d62-415a-adde-1d758d3f5e12">
+        <config>
+          <option name="distributionMsId" value="Ubuntu-20.04" />
+          <option name="projectRootOnTarget" value="/mnt/d/Program Files/JetBrains/GoLand 2022.2.2/jbr/bin&#10;/go_learn" />
+        </config>
+        <ContributedStateBase type="GoLanguageRuntime">
+          <config>
+            <option name="goPath" value="/root/go" />
+            <option name="goRoot" value="/usr/local/bin/go" />
+            <option name="goVersion" value="go1.18.5 linux/amd64" />
+          </config>
+        </ContributedStateBase>
+      </target>
+    </targets>
+  </component>
+</project>

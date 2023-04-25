@@ -1,0 +1,15 @@
+// protobuf有两个版本，默认版本是proto2，如果需要3则在第一行使用这行代码表明版本。
+syntax = "proto3";
+
+// 可选的，主要用来防止不同的消息类型有命名冲突
+package main;
+// 1.32以上的protoc-gen-go需要加上go包名，不然会报错，生成的go文件也在包里。
+option go_package = "/model";
+
+message SampleMessage{
+  oneof test_oneof {
+    string name = 4;
+    SubMessage sub_message = 9;
+  }
+}
+
